@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alha\\Downloads\\PollutionSolution\\PollutionSolution.csproj": {}
+    "C:\\Users\\msei\\source\\repos\\Hackathon2021\\PollutionSolution.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alha\\Downloads\\PollutionSolution\\PollutionSolution.csproj": {
+    "C:\\Users\\msei\\source\\repos\\Hackathon2021\\PollutionSolution.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alha\\Downloads\\PollutionSolution\\PollutionSolution.csproj",
+        "projectUniqueName": "C:\\Users\\msei\\source\\repos\\Hackathon2021\\PollutionSolution.csproj",
         "projectName": "PollutionSolution",
-        "projectPath": "C:\\Users\\alha\\Downloads\\PollutionSolution\\PollutionSolution.csproj",
-        "packagesPath": "C:\\Users\\alha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alha\\Downloads\\PollutionSolution\\obj\\",
+        "projectPath": "C:\\Users\\msei\\source\\repos\\Hackathon2021\\PollutionSolution.csproj",
+        "packagesPath": "C:\\Users\\msei\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\msei\\source\\repos\\Hackathon2021\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\alha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\msei\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -70,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }
