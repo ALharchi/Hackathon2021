@@ -24,6 +24,8 @@ namespace PollutionSolution.Controllers
                 // Create directed graph with node a and b, and a one-way direction from a to b
                 var nodes = new List<Node>();
 
+                var speed = 20;
+
                 foreach (var item in items)
                 {
                     var node = new Node(new Position(item.X, item.Y));
@@ -36,7 +38,7 @@ namespace PollutionSolution.Controllers
                     foreach (var child in children)
                     {
                         var nodeB = nodes[child - 1];
-                        node.Connect(nodeB, Velocity.FromKilometersPerHour(items[child - 1].Pollution));
+                        node.Connect(nodeB, Velocity.FromKilometersPerHour(speed - items[child - 1].Pollution));
                     }
                 }
 
